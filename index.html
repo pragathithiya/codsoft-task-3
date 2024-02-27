@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shoe Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img src="NIKE LOGO.png" alt="Company Logo" id="header-img"/>
+      </a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#our-products" class="nav-link">OUR PRODUCTS</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="homeimg.png" alt="Image for home" />
+          <h1></h1>
+        </div>
+        <div class="eye-grabber">
+          <h1>Create your own style</h1>
+          <h2>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea similique ex rem dolorem laborum sapiente quos. Accusamus ea quia, quibusdam temporibus tempora aspernatur ex, distinctio vero nesciunt corporis delectus voluptatibus?
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            Welcome to a world of footwear wonders! At NIKE, we're passionate about putting your best foot forward. Explore a stunning collection of shoes that blend fashion and comfort seamlessly.
+            Whether you're after sleek heels, durable boots, trendy sneakers, or elegant dress shoes, we've got you covered. Our shelves are stocked with a diverse range of brands and styles to suit every taste and occasion.
+            Our knowledgeable team is here to guide you to the ideal pair. We're dedicated to ensuring you not only look great but feel fantastic in your new shoes.
+            Come in and experience a warm, inviting atmosphere where trying on shoes is an adventure, not a chore. Your perfect pair is waiting to be discovered!
+          </p>
+          <img src="showroom2.webp" alt="Nike Showroom" />
+        </div>
+      </section>
+      <section id="our-products" class="sec-padding">
+        <h3 class="section-heading">OUR PRODUCTS</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="shoe1.png" alt="photo of shoe 1" />
+            <h4>Nike shoe</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatibus maxime omnis possimus.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="shoe2.png" alt="photo of Shoe 2"/>
+            <h4>Sneakers basketball shoe</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto ad totam dicta dolorem tempora magni eaque.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="shoe3.png" alt="Shoe 3" />
+            <h4>Sneakers skate shoe</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda at quaerat delectus inventore accusamus.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="shoe4.png" alt="Shoe 4" />
+            <h4>Prestige-high cut Leather</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita culpa eaque, repudiandae aperiam velit possimus magnam.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="shoe5.png" alt="photo of Shoe 5" />
+            <h4>Slip on formal Shoe</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptates sint vitae eius sunt enim assumenda. 
+            </p>
+          </div>
+          <div class="tile">
+            <img src="shoe6.png" alt="photo of Shoe 6" />
+            <h4>Slip on formal Shoe</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti vero ipsam facilis exercitationem.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="image 12.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Find the perfect fit</h5>
+              <p>Everybody is different, which is why we offer styles for everybody</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="image 13.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Free exchanges</h5>
+              <p>
+                One of the many reasons you can shop with peace of mind.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="image 14.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Contact our seller</h5>
+              <p>
+                They are here to help you.That's quite literally what we pay them for.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form id="form" action="" method="POST">
+            <input type="email" name="email" id="email" placeholder="Enter Your Email Address" required/>
+            <input type="submit" class="btn" id="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+          <p>&copy; 2023 Nike shoes. All rights reserved.</p>
+          <p>Address: 123 Shoe Street, City, ZIP</p>
+          <p>Email: info@nikeshoeshop.com</p>
+      </div>
+  </footer>
+  
+  </body>
+</html>
